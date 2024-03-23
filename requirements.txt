@@ -1,0 +1,11 @@
+asgiref==3.8.1
+crispy-bootstrap5==2024.2
+Django==5.0.3
+django-crispy-forms==2.1
+gunicorn==21.2.0
+packaging==24.0
+pillow @ file:///C:/b/abs_e22m71t0cb/croot/pillow_1707233126420/work
+setuptools==68.2.2
+sqlparse @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/sqlparse_1699544474746/work
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+wheel==0.41.2

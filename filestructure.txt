@@ -1,0 +1,31 @@
+Folder PATH listing for volume Windows
+Volume serial number is 08B6-ED28
+C:.
+|   db.sqlite3
+|   filestructure.txt
+|   manage.py
+|   
++---blog
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   tests.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|   \---migrations
+|           __init__.py
+|           
+\---django_tutorial
+    |   asgi.py
+    |   settings.py
+    |   urls.py
+    |   wsgi.py
+    |   __init__.py
+    |   
+    \---__pycache__
+            settings.cpython-310.pyc
+            urls.cpython-310.pyc
+            wsgi.cpython-310.pyc
+            __init__.cpython-310.pyc
+            

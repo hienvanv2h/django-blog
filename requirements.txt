@@ -4,8 +4,9 @@ Django==5.0.3
 django-crispy-forms==2.1
 gunicorn==21.2.0
 packaging==24.0
-pillow @ file:///C:/b/abs_e22m71t0cb/croot/pillow_1707233126420/work
+pillow==10.2.0
+pip==23.3.1
 setuptools==68.2.2
-sqlparse @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/sqlparse_1699544474746/work
-tzdata @ file:///croot/python-tzdata_1690578112552/work
+sqlparse==0.4.4
+tzdata==2023.3
 wheel==0.41.2

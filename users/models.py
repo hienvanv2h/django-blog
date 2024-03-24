@@ -13,16 +13,16 @@ class Profile(models.Model):
   def __str__(self) -> str:
     return f"{self.user.username} Profile"
 
-  def save(self, *args, **kwargs):
-    p = Profile.objects.get(id=self.pk)
-    if p.image == default_img:
-      pass
-    elif p.image != self.image:
-      p.image.delete(save=False)
+  # def save(self, *args, **kwargs):
+  #   p = Profile.objects.get(id=self.pk)
+  #   if p.image == default_img:
+  #     pass
+  #   elif p.image != self.image:
+  #     p.image.delete(save=False)
 
-    super().save(*args, **kwargs)
-    img = Image.open(self.image.path)
-    if img.height > 300 or img.width > 300:
-      output_size = (300, 300)
-      img.thumbnail(output_size)
-      img.save(self.image.path)   # override original image
+  #   super().save(*args, **kwargs)
+  #   img = Image.open(self.image.path)
+  #   if img.height > 300 or img.width > 300:
+  #     output_size = (300, 300)
+  #     img.thumbnail(output_size)
+  #     img.save(self.image.path)   # override original image
